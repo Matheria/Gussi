@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gussi</title>
+  <link rel="preload" href="./assets/fonts/Rajdhani-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="assets/img/icons/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png">
+  <link rel="manifest" href="favicon.webmanifest">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page__body">
+  <h1 class="visually-hidden">Gussi light coat</h1>
+
+  <section class="promo">
+    <h2 class="visually-hidden">Promo slider</h2>
+    <a class="logo">
+      <img class="logo__img" src="./assets/svg/logo.svg" width="65" height="36" alt="Gussi logo">
+    </a>
+    <div class="slider">
+      <ul class="slider__list list">
+        <li class="slider__item slider__item_current">
+          <div class="slider__img-wrapper">
+            <picture>
+              <source srcset="./assets/img/slider/desktop/slide1_2x.webp" type="image/webp" media="(min-width: 1366px)">
+              <source srcset="./assets/img/slider/desktop/slide1.webp" type="image/webp"
+                media="(min-width: 1025px) and (max-width: 1365px)">
+              <source srcset="./assets/img/slider/tablet/slide1.webp" type="image/webp"
+                media="(min-width: 401px) and (max-width: 1024px)">
+              <source srcset="./assets/img/slider/mobile/slide1.webp" type="image/webp" media="(max-width: 400px)">
+              <source srcset="./assets/img/slider/desktop/slide1.jpg" type="image/jpeg" media="(min-width: 1025px)">
+              <source srcset="./assets/img/slider/tablet/slide1.jpg" type="image/jpeg"
+                media="(min-width: 401px) and (max-width: 1024px)">
+              <source srcset="./assets/img/slider/mobile/slide1.jpg" type="image/jpeg" media="(max-width: 400px)">
+              <img class="slider__img" src="./assets/img/slider/desktop/slide1.jpg" alt="Woman in blue light coat">
+            </picture>
+          </div>
+          <div class="slider__text-wrapper">
+            <p class="slider__title">Light coat</p>
+            <p class="slider__slogan">More cotton, more freedom</p>
+          </div>
+        </li>
+        <li class="slider__item">
+          <picture>
+            <source srcset="./assets/img/slider/desktop/slide2_2x.webp" type="image/webp" media="(min-width: 1366px)">
+            <source srcset="./assets/img/slider/desktop/slide2.webp" type="image/webp"
+              media="(min-width: 1025px) and (max-width: 1365px)">
+            <source srcset="./assets/img/slider/tablet/slide2.webp" type="image/webp"
+              media="(min-width: 401px) and (max-width: 1024px)">
+            <source srcset="./assets/img/slider/mobile/slide2.webp" type="image/webp" media="(max-width: 400px)">
+            <source srcset="./assets/img/slider/desktop/slide2.jpg" type="image/jpeg" media="(min-width: 1025px)">
+            <source srcset="./assets/img/slider/tablet/slide2.jpg" type="image/jpeg"
+              media="(min-width: 401px) and (max-width: 1024px)">
+            <source srcset="./assets/img/slider/mobile/slide2.jpg" type="image/jpeg" media="(max-width: 400px)">
+            <img class="slider__img" src="./assets/img/slider/desktop/slide2.jpg" alt="Woman in a sandy longsleeve">
+          </picture>
+          <div class="slider__text-wrapper">
+            <p class="slider__title">Sandy longsleeve</p>
+            <p class="slider__slogan">More cotton, more freedom</p>
+          </div>
+        </li>
+        <li class="slider__item">
+          <picture>
+            <source srcset="./assets/img/slider/desktop/slide3_2x.webp" type="image/webp" media="(min-width: 1366px)">
+            <source srcset="./assets/img/slider/desktop/slide3.webp" type="image/webp"
+              media="(min-width: 1025px) and (max-width: 1365px)">
+            <source srcset="./assets/img/slider/tablet/slide3.webp" type="image/webp"
+              media="(min-width: 401px) and (max-width: 1024px)">
+            <source srcset="./assets/img/slider/mobile/slide3.webp" type="image/webp" media="(max-width: 400px)">
+            <source srcset="./assets/img/slider/desktop/slide3.jpg" type="image/jpeg" media="(min-width: 1025px)">
+            <source srcset="./assets/img/slider/tablet/slide3.jpg" type="image/jpeg"
+              media="(min-width: 401px) and (max-width: 1024px)">
+            <source srcset="./assets/img/slider/mobile/slide3.jpg" type="image/jpeg" media="(max-width: 400px)">
+            <img class="slider__img" src="./assets/img/slider/desktop/slide3.jpg" alt="Woman in a lime jacket">
+          </picture>
+          <div class="slider__text-wrapper">
+            <p class="slider__title">Lime jacket</p>
+            <p class="slider__slogan">More cotton, more freedom</p>
+          </div>
+        </li>
+      </ul>
+      <div class="slider__footer">
+        <div class="slider__controls">
+          <button class="slider__btn slider__btn_prev" type="button">
+            <svg width="10" height="16"></svg>
+          </button>
+          <button class="slider__btn slider__btn_next" type="button">
+            <svg width="10" height="16"></svg>
+          </button>
+        </div>
+        <div class="slider__counter">
+          <span class="slider__current">01</span>
+          <span class="slider__divisor">&mdash;</span>
+          <span class="slider__total">03</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="page__main container">
+    <section class="product">
+      <div class="about">
+        <h2 class="about__title title">New product</h2>
+        <p class="about__name">Gussi light coat</p>
+        <p class="about__text">It takes you from the party to the
+          after party&ensp;with its fashion-forward
+          styles. A playfull blend of retro and
+          modern outdoor design.</p>
+      </div>
+      <form class="choice" method="POST" action="https://echo.htmlacademy.ru" id="choice-form" aria-label="order form">
+        <h2 class="visually-hidden">Order form</h2>
+        <div class="choice__top">
+          <fieldset class="choice__fieldset colour">
+            <legend class="choice__legend colour__title title">Сolour</legend>
+            <ul class="colour__list list">
+              <li class="colour__item">
+                <input class="colour__input visually-hidden" type="radio" value="dark-blue" name="colour" id="dark-blue"
+                  checked>
+                <label class="colour__mark colour__mark_dark-blue" for="dark-blue" aria-label="dark-blue"></label>
+              </li>
+              <li class="colour__item">
+                <input class="colour__input visually-hidden" type="radio" value="bluesh-gray" name="colour"
+                  id="bluesh-gray">
+                <label class="colour__mark colour__mark_bluesh-gray" for="bluesh-gray"
+                  aria-label="bluesh-gray"></label>
+              </li>
+              <li class="colour__item">
+                <input class="colour__input visually-hidden" type="radio" value="light-blue" name="colour"
+                  id="light-blue">
+                <label class="colour__mark colour__mark_light-blue" for="light-blue" aria-label="light-blue"></label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="choice__fieldset size">
+            <legend class="choice__legend size__title title">Size</legend>
+            <ul class="size__list list">
+              <li class="size__item">
+                <input class="size__input visually-hidden" type="radio" value="xs" name="size" id="xs">
+                <label class="size__label" for="xs">xs</label>
+              </li>
+              <li class="size__item">
+                <input class="size__input visually-hidden" type="radio" value="s" name="size" id="s" checked>
+                <label class="size__label" for="s">s</label>
+              </li>
+              <li class="size__item">
+                <input class="size__input visually-hidden" type="radio" value="m" name="size" id="m">
+                <label class="size__label" for="m">m</label>
+              </li>
+              <li class="size__item">
+                <input class="size__input visually-hidden" type="radio" value="l" name="size" id="l">
+                <label class="size__label" for="l">l</label>
+              </li>
+              <li class="size__item">
+                <input class="size__input visually-hidden" type="radio" value="xl" name="size" id="xl" disabled>
+                <label class="size__label" for="xl">xl</label>
+              </li>
+            </ul>
+            <a class="size__link" href="#" aria-label="size guide">Size guide</a>
+          </fieldset>
+        </div>
+        <div class="choice__bottom">
+          <fieldset class="choice__fieldset quantity">
+            <legend class="choice__legend quantity__title title">Quantity</legend>
+            <div class="quantity__counter">
+              <button class="quantity__btn quantity__btn_minus" type="button" aria-label="add one item"
+                disabled></button>
+              <label class="visually-hidden" for="quantity">quantity of goods</label>
+              <input type="text" class="quantity__number" value="1" id="quantity" name="quantity" readonly>
+              <button class="quantity__btn quantity__btn_plus" type="button" aria-label="remove one item"></button>
+            </div>
+          </fieldset>
+          <fieldset class="choice__fieldset cost">
+            <legend class="choice__legend cost__title title">Cost</legend>
+            <span class="cost__dollar">$<span class="cost__number">120</span><span class="cost__cents">.00</span></span>
+          </fieldset>
+        </div>
+      </form>
+      <div class="details">
+        <h2 class="details__title title">Product details</h2>
+        <p class="details__text"> Look out for its standout party dresses, feminine details, statement jackets and
+          cool
+          denim including skinny-cut jeans and cute denim shorts, which sit alongside its directional footwear and
+          swimwear ranges.</p>
+        <p class="details__compose">63% Viscose, 37% Polyamide. </p>
+      </div>
+      <button type="submit" class="collection__link button" form="choice-form">Order now</button>
+    </section>
+
+    <section class="services">
+      <h2 class="visually-hidden">Delivery, return</h2>
+      <ul class="services__list list">
+        <li class="services__item">
+          <button class="services__accordion">Delivery</button>
+          <div class="services__desc">
+            <p class="services__text">Delivered on or before Monday, 25 February 2019
+              Note: Subject to placing your order before specific cut-off times. Details available in checkout.</p>
+            <p class="services__text">For free delivery – spend over <span class="services__price">£18.08</span>
+            </p>
+          </div>
+        </li>
+        <li class="services__item">
+          <button class="services__accordion">Return</button>
+          <div class="services__desc">
+            <p class="services__text">Return through your local Boxberry store available in over 2,300 locations.
+              You can create your return on the carrier website by clicking the create return link.
+              Open 7 days a week, early until late.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="collections">
+      <h2 class="collections__title title">Similar collections</h2>
+      <ul class="collections__list list">
+        <li class="collections__item">
+          <a class="collections__link" href="#" aria-label="Kingsman style collection">
+            <div class="collections__img-wrapper">
+              <picture>
+                <source type="image/webp" media="(min-width: 1280px)"
+                  srcset="assets/img/collections/desktop/kingsman.webp, assets/img/collections/desktop/kingsman@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 720px)"
+                  srcset="assets/img/collections/tablet/kingsman.webp, assets/img/collections/tablet/kingsman@2x.webp 2x">
+                <source type="image/webp" srcset="assets/img/collections/mobile/kingsman.webp, assets/img/collections/mobile/kingsman@2x.webp 2x">
+                <source media="(min-width: 1280px)" srcset="assets/img/collections/desktop/kingsman.jpg, assets/img/collections/desktop/kingsman@2x.jpg 2x">
+                <source media="(min-width: 720px)" srcset="assets/img/collections/tablet/kingsman.jpg, assets/img/collections/tablet/kingsman@2x.jpg 2x">
+                <img class="collections__img" src="assets/img/collections/mobile/kingsman.jpg" srcset="assets/img/collections/mobile/kingsman@2x.jpg 2x" width="288" height="160" alt="Woman dressed in Kingsman style">
+              </picture>
+            </div>
+            <div class="collections__desc">
+              <h3 class="collections__name">Kingsman style</h3>
+              <p class="collections__slogan">More silk, more freedom</p>
+            </div>
+          </a>
+        </li>
+        <li class="collections__item">
+          <a class="collections__link" href="#" aria-label="Denim style collection">
+            <div class="collections__img-wrapper">
+              <picture>
+                <source type="image/webp" media="(min-width: 1280px)"
+                  srcset="assets/img/collections/desktop/denim.webp, assets/img/collections/desktop/denim@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 720px)"
+                  srcset="assets/img/collections/tablet/denim.webp, assets/img/collections/tablet/denim@2x.webp 2x">
+                <source type="image/webp" srcset="assets/img/collections/mobile/denim.webp, assets/img/collections/mobile/denim@2x.webp 2x">
+                <source media="(min-width: 1280px)" srcset="assets/img/collections/desktop/denim.jpg, assets/img/collections/desktop/denim@2x.jpg 2x">
+                <source media="(min-width: 720px)" srcset="assets/img/collections/tablet/denim.jpg, assets/img/collections/tablet/denim@2x.jpg 2x">
+                <img class="collections__img" src="assets/img/collections/mobile/denim.jpg" srcset="assets/img/collections/mobile/denim@2x.jpg 2x" width="288" height="160" alt="Woman dressed in Denim style">
+              </picture>
+            </div>
+            <div class="collections__desc">
+              <h3 class="collections__name">Denim goddess</h3>
+              <p class="collections__slogan">More denim, more freedom</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="subscription">
+      <h2 class="subscription__title">Subscribe our newsletter</h2>
+      <p class="subscription__desc">Get notified about new collections
+        of Gussi Store</p>
+      <form class="subscription__form" action="https://echo.htmlacademy.ru" method="POST">
+        <fieldset class="subscription__fieldset">
+          <legend class="visually-hidden">Contact details</legend>
+          <ul class="subscription__list list">
+            <li class="subscription__item">
+              <label class="visually-hidden" for="name">Enter your name</label>
+              <input class="subscription__input subscription__input_name" type="text" name="name" id="name"
+                placeholder="Enter your name">
+            </li>
+            <li class="subscription__item">
+              <label class="visually-hidden" for="email">Enter your e-mail</label>
+              <input class="subscription__input subscription__input_email" type="email" name="email" id="email"
+                placeholder="Enter your e-mail" required>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="subscription__fieldset">
+          <div class="subscription__gender-wrapper">
+            <p class="subscription__legend">Choose your gender:</p>
+            <ul class="subscription__list subscription__list_radio list">
+              <li class="subscription__item">
+                <input class="subscription__input-radio visually-hidden" type="radio" name="gender" value="male"
+                  id="male" checked>
+                <label class="subscription__label subscription__label_radio" for="male"> Male</label>
+              </li>
+              <li class="subscription__item">
+                <input class=" subscription__input-radio visually-hidden" type="radio" name="gender" value="female"
+                  id="female">
+                <label class="subscription__label subscription__label_radio" for="female"> Female</label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+        <input class="subscription__input-checkbox visually-hidden" type="checkbox" name="addition" id="addition"
+          checked>
+        <label class="subscription__label subscription__label_checkbox" for="addition">
+          Look out for its standout party
+          dresses, feminine details</label>
+        <button type="submit" class="subscription__btn button">Subscribe Gussi</button>
+      </form>
+    </section>
+  </main>
+  <script src="js/slider.js"></script>
+  <script src="js/accordion.js"></script>
+  <script src="js/quantity.js"></script>
+</body>
+</html>
